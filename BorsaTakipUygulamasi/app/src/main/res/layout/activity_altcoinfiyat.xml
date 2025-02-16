@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1A1A1A">
+
+    <!-- Coin adı girişi için EditText -->
+    <EditText
+        android:id="@+id/etCoinName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coin adı girin"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <!-- Coin fiyatını çekmek için Buton -->
+
+    <!-- Coin fiyatını gösterecek TextView -->
+    <Button
+        android:id="@+id/btnFetchPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fiyatı Göster"
+        android:backgroundTint="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvCoinPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Coin Fiyatı"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ekran_g_r_nt_s__2024_12_18_071456" />
+    <!-- Coin fiyatını çekme butonu -->
+</LinearLayout>

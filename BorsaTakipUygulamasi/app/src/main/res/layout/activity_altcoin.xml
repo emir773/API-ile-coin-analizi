@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1A1A1A">
+
+    <!-- Sepet Adı -->
+    <EditText
+        android:id="@+id/etBasketName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sepet Adı"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    !-- Coin Adı -->
+    <EditText
+        android:id="@+id/etCoinName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coin Adı"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+
+    <!-- Coin Ekleme Butonu -->
+    <Button
+        android:id="@+id/btnAddCoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coin Ekle"
+        android:backgroundTint="@color/black"/>
+
+    <!-- Coin Silme Butonu -->
+    <Button
+        android:id="@+id/btnDeleteCoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coin Sil"
+        android:backgroundTint="@color/black"/>
+
+    <!-- Altcoin Listesi -->
+    <TextView
+        android:id="@+id/tvAltcoinListesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altcoin Listesi"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+</LinearLayout>

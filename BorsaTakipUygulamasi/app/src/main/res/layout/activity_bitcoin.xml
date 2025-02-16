@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1A1A"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/etBitcoinAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coin Adı"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/etMaliyet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maliyet"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/etStopNoktasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stop Noktası"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/etNot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Beklentiler"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnEkle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Ekle" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Listeyi sil" />
+
+    <Button
+        android:id="@+id/btnGuncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Güncelle" />
+
+    <Button
+        android:id="@+id/btnSorgula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Sorgula" />
+
+    <TextView
+        android:id="@+id/tvBitcoinListesi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+</LinearLayout>

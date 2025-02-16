@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text=" Borsa Takip Listesine Hoşgeldin:"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnBitcoin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitcoin Takip Listesi"
+        android:backgroundTint="@color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Favori Altcoin Sepeti"
+        android:backgroundTint="@color/black"/>
+    <Button
+        android:id="@+id/btnAltcoinFiyat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Altcoin Fiyat"
+        android:backgroundTint="@color/black"/>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/ekran_g_r_nt_s__2024_12_17_203414" />
+
+
+</LinearLayout>
